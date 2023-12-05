@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="DataValue">
+      <HintPath>..\..\..\VAdvance\Packages\DataValue\bin\Release\net6.0\DataValue.dll</HintPath>
+    </Reference>
+    <Reference Include="VEnum">
+      <HintPath>..\..\..\VAdvance\Packages\VEnum\bin\Release\net6.0\VEnum.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
